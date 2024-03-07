@@ -1,5 +1,5 @@
-# nano_plc_8DI_8DO_1AO
- arduino nano plc 
+# Arduino Nano Plc
+  indusrial arduino nano plc 8DI 8DO 1AO
  Tasarım amacı; kontrol panelli, 4 adet sensör ve 6 adet valf bağlanabilen kompak ve endüstriyel bir cihaz üretmek.
 
 
