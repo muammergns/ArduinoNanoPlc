@@ -7,51 +7,40 @@ Projeyle uğraşmak istemezseniz Gerber dosyasını herhangi bir pcb üreticiye 
 
 Ayrıca PCB montaj yapabileceğiniz bir kutu tasarımı da projeye eklendi. Bunu 3D yazıcı ile üretip kullanabilirsiniz.
 
+![PCB](https://github.com/muammergns/ArduinoNanoPlc/blob/main/pcb/pcb-top.jpg)
+
 ## Klemens Bağlantıları
-1.1: Kart güç +24V
-1.2: Kart güç 0V
+| 1.1 | 1.2 |
+| :- | :- |
+| Güç +24V | Güç 0V |
 
-2.1: HMI için +24V
-2.2: HMI için 0V
-2.3: Ürün sensörü giriş
-2.4: Acil Stop giriş
-2.5: Stop butonu giriş
-2.6: Start butonu giriş
-2.7: Yeşil ikaz çıkış
-2.8: Kırmızı ikaz çıkış
+| 2.1 | 2.2 | 2.3 | 2.4 | 2.5 | 2.6 | 2.7 | 2.8 |
+| :- | :- | :- | :- | :- | :- | :- | :- |
+| HMI +24V | HMI 0V | Product IN | Emergency IN | Stop IN | Start IN | Lamp OUT | Buzzer OUT |
 
-3.1: 0-10V +
-3.2: 0-10V -
+| 3.1     | 3.2     |
+| :------ | :------ |
+| 0-10V + | 0-10V - |
 
-4.1:  OUT 1 +
-4.2:  OUT 1 -
-4.3:  OUT 2 +
-4.4:  OUT 2 -
-4.5:  OUT 3 +
-4.6:  OUT 3 -
-4.7:  OUT 4 +
-4.8:  OUT 4 -
-4.9:  OUT 5 +
-4.10: OUT 5 -
-4.11: OUT 6 +
-4.12: OUT 6 -
+| 4.1    | 4.2    | 4.3    | 4.4    | 4.5    | 4.6    |
+| :-     | :-     | :-     | :-     | :-     | :-     |
+| OUT 1+ | OUT 1- | OUT 2+ | OUT 2- | OUT 3+ | OUT 3- |
 
-5.1: RS485 A
-5.2: RS485 B
-5.3: RS485 GND
+| 4.7    | 4.8    | 4.9    | 4.10   | 4.11   | 4.12   |
+| :-     | :-     | :-     | :-     | :-     | :-     |
+| OUT 4+ | OUT 4- | OUT 5+ | OUT 5- | OUT 6+ | OUT 6- |
 
-6.1:  Sensör +
-6.2:  IN 1
-6.3:  Sensör -
-6.4:  Sensör +
-6.5:  IN 2
-6.6:  Sensör -
-6.7:  Sensör +
-6.8:  IN 3
-6.9:  Sensör -
-6.10: Sensör +
-6.11: IN 4
-6.12: Sensör -
+| 5.1     | 5.2     | 5.3       |
+| :-      | :-      | :-        |
+| RS485 A | RS485 B | RS485 GND |
+
+| 6.1     | 6.2  | 6.3     | 6.4     | 6.5  | 6.6     |
+| :-      | :-   | :-      | :-      | :-   | :-      |
+| Sensör+ | IN 1 | Sensör- | Sensör+ | IN 2 | Sensör- |
+
+| 6.7     | 6.8  | 6.9     | 6.10    | 6.11 | 6.12    |
+| :-      | :-   | :-      | :-      | :-   | :-      |
+| Sensör+ | IN 3 | Sensör- | Sensör+ | IN 4 | Sensör- |
 
 ### Malzeme Listesi yakında..
 
